@@ -5,6 +5,7 @@ import 'package:webview_flutter/webview_flutter.dart';
 
 void main() {
   runApp(const MaterialApp(
-    home: Hello()
+    home: Hello(),
+    debugShowCheckedModeBanner: false,
   ));
 }
