@@ -6,7 +6,19 @@ class Hello extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      appBar: AppBar(title: const Text("Hello Flutter!")),
+      appBar: AppBar(
+        title: const Text("Hello Flutter!"),
+        actions: [
+          IconButton(onPressed: () {}, icon: const Icon(Icons.mail)),
+          IconButton(onPressed: () {}, icon: const Icon(Icons.person))
+        ],
+        leading: IconButton(onPressed: () {}, icon: const Icon(Icons.menu),),
+        centerTitle: true,
+        toolbarHeight: 75,
+        toolbarOpacity: 1,
+        elevation: 10,
+        backgroundColor: Colors.blue[300],
+        ),
       body: const Center(child: Text("Merhaba Flutter!", style: TextStyle(fontSize: 38, color: Colors.red))),
       drawer: Drawer(
         child: ListView(
