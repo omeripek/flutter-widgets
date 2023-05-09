@@ -5,11 +5,11 @@ class TextfieldUygulamasi extends StatefulWidget {
 
   @override
   State<StatefulWidget> createState() {
-    return _UygulamamState();
+    return _TextfieldUygulamasi();
   }
 }
 
-class _UygulamamState extends State {
+class _TextfieldUygulamasi extends State {
   @override
   Widget build(BuildContext context) {
     return MaterialApp(

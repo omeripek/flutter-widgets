@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
 //import 'hello.dart';
 //import 'package:webview_flutter/webview_flutter.dart';
-import 'text_field.dart';
+import 'change_text.dart';
 
 void main() {
   /*runApp(const MaterialApp(
@@ -9,5 +9,5 @@ void main() {
     debugShowCheckedModeBanner: false,
   ));
   */
-  runApp(const TextfieldUygulamasi());
+  runApp(const ChangeText());
 }
