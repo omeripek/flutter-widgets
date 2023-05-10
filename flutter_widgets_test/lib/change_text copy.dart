@@ -10,7 +10,7 @@ class ChangeText extends StatefulWidget {
 }
 
 class _ChangeTextState extends State {
-  final TextEditingController _controller = TextEditingController();
+  TextEditingController _controller = TextEditingController();
   String _yeniYazi="Deneme Deneme";
   @override
   Widget build(BuildContext context) {
@@ -22,9 +22,9 @@ class _ChangeTextState extends State {
           child: Column(
             mainAxisAlignment: MainAxisAlignment.spaceEvenly,
             children: [
-              Text(_yeniYazi,
-              style: const TextStyle(fontSize: 18, color: Colors.red)),
-               TextField(
+              const Text(_yeniYazi,
+              style: TextStyle(fontSize: 18, color: Colors.red)),
+              const TextField(
                 controller: _controller,
                 decoration: InputDecoration(
                   border: OutlineInputBorder(),
